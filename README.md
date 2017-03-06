@@ -37,6 +37,12 @@ SetSqlGenerator("MySql.Data.MySqlClient",
 
                 
                 
-                
+CODIGO MYSQL PARA ACTIVAR EL TRABAJO CON EF DESDE UNA BASE DE DATOS YA EXISTENTE                
+Use testpoco;
+set global optimizer_switch='derived_merge=off';
+set optimizer_switch='derived_merge=off';
+
+select @@optimizer_switch;
+select @@GLOBAL.optimizer_switch;                
           
 
