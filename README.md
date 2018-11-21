@@ -24,6 +24,9 @@ actualmetne esta asi  (PARA MYSQL):
 COMANDOS PARA CREAR LA BASE DE DATOS 
 En la consola de administracion de paquetes no se les olvide ejecutar el siguiente comando:
 
+enable-migrations
+add-migration InitialCreate
+
 UPDATE-DATABASE
 
 
